@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hgp-test
+
+server:
+  port: 8088
+  servlet:
+    context-path: /test-test
+
+logging:
+  level:
+    com.hegp.core.filter.BasePathConfigFilter: debug
+    com.hegp.core.filter.UrlMappingFilter: debug
